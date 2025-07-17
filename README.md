@@ -162,7 +162,7 @@ The churn rate stays around **20–21%** across the board. No single service add
 
 ### 2.2 Are bundle users more loyal?
 
-<img width="637" height="297" alt="image" src="https://github.com/user-attachments/assets/136ad412-ba2c-4c13-a438-15c87036d21b" />
+<img width="683" height="292" alt="image" src="https://github.com/user-attachments/assets/ed510d2d-234c-4146-a9ee-bc872fbf5fc9" />
 
 Bundles do not equal loyalty. 
 
