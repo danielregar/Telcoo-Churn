@@ -78,10 +78,9 @@ Reducing churn by just **5%** (747 customers) would retain an estimated **$3.35M
 ### 1.1 Which customer segments have the highest churn?
 I explored churn from multiple angles = age, city, family status, and more,  to uncover where loss is concentrated.
 
-<img width="1307" height="734" alt="image" src="https://github.com/user-attachments/assets/28862d28-8f47-41ce-a3c3-847add40857c" />
-
 #### 1.1.1 Age Group
-<img width="680" height="278" alt="image" src="https://github.com/user-attachments/assets/3cc440d7-adf7-48d5-90df-643c47a154a2" />
+<img width="676" height="266" alt="image" src="https://github.com/user-attachments/assets/b59d22a1-796c-48b8-ab12-23336dbf8912" />
+
 
 **Senior citizens** (**65**+) account for the **highest churn volume** (**920** churned), not because they’re riskier, but because they represent a large portion of the base. 
 
@@ -90,7 +89,7 @@ Their churn rate? A consistent **20–21**%, just like others.
 
 #### 1.1.2 Number of Dependents
 
-<img width="671" height="304" alt="image" src="https://github.com/user-attachments/assets/4579a8f6-f142-47f3-9ce7-d655362349fb" />
+<img width="682" height="287" alt="image" src="https://github.com/user-attachments/assets/91f3d48a-1667-42e2-9ff2-c3fe69b64173" />
 
 - Customers with **0 dependents** form the **largest customer group (9,375)** and also account for the **highest churn volume (21%).**
 - Churn volume among customers with **1–3 dependents is relatively balanced**, ranging from **350 to 383** churned users.
@@ -99,14 +98,15 @@ Their churn rate? A consistent **20–21**%, just like others.
 
 #### 1.1.3 City
 
-<img width="616" height="285" alt="image" src="https://github.com/user-attachments/assets/104eea3b-bfcd-453d-b2bb-c5cab73c6d2b" />
+<img width="613" height="282" alt="image" src="https://github.com/user-attachments/assets/1f69f29e-1221-4717-abb5-4496e4d2133c" />
 
 - Churn rates are **remarkably consistent across cities**, ranging from **19% to 22%.**
 - **Miami** shows the **highest churn rate**, while **New York** and **Seattle** have the **lowest** (**19**%), but the gap is minimal.
 - Overall, location does not appear to be a strong driver of churn.
 #### 1.1.4 Married Status
 
-<img width="621" height="293" alt="image" src="https://github.com/user-attachments/assets/5eb76f40-59d3-4025-9b4f-48a00a695667" />
+<img width="627" height="275" alt="image" src="https://github.com/user-attachments/assets/b2f47618-739b-4757-a6fa-6e79b67a55d6" />
+
 
 - Whether a customer is **married or not** makes **little difference in churn behavior**.
 - Churn percentages are **nearly identical** between married and unmarried customers, showing no **predictive power** in this variable.
@@ -143,7 +143,7 @@ Tested this with a **Chi-Square analysis**:
 Acquisition incentives like offers or referrals **do not influence long-term retention**. 
 
 ### 1.3 Which contracts retain better?
-<img width="553" height="365" alt="image" src="https://github.com/user-attachments/assets/4f1eecae-7213-4c27-9094-f4b6ddfab3e4" />
+<img width="630" height="335" alt="image" src="https://github.com/user-attachments/assets/cae68c63-0a29-4847-a74f-ec3eee93e8ee" />
 
 - Surprisingly, **Month-to-Month customers**, often seen as risky, show the **lowest churn** (**20**%)
 - Both **1-Year and 2-Year contracts churn at 21%**, despite longer commitments
@@ -162,10 +162,11 @@ The churn rate stays around **20–21%** across the board. No single service add
 
 ### 2.2 Are bundle users more loyal?
 
-<img width="660" height="319" alt="image" src="https://github.com/user-attachments/assets/3fa2ec7d-b87b-41d3-b3f7-2d88b4b4533a" />
+<img width="637" height="297" alt="image" src="https://github.com/user-attachments/assets/136ad412-ba2c-4c13-a438-15c87036d21b" />
 
+Bundles do not equal loyalty. 
 
-Bundles do not equal loyalty. Even highly engaged users can churn. Retention must address why customers leave, not just how much they use.
+The churn across the bundle scores is pretty much the same, around 19-21%. Even highly engaged users can churn. Retention must address why customers leave, not just how much they use.
 - Most churned customers have a bundle score between **4–6**.
 - The highest churn count is at score **5 (799 churned)**.
 - Scores **1, 9, 10 show very low churn**, but their sample size is tiny.
@@ -174,7 +175,8 @@ Bundles do not equal loyalty. Even highly engaged users can churn. Retention mus
 
 ### 2.3 Are customers churning due to dissatisfaction?
 
-<img width="651" height="349" alt="image" src="https://github.com/user-attachments/assets/4bb0ea07-010c-40c3-8f58-356469efd07e" />
+<img width="634" height="364" alt="image" src="https://github.com/user-attachments/assets/975e0d7f-ebd8-4730-806d-281971d44413" />
+
 
 At first glance, no, the satisfaction score is flat across churned and retained users.
 But **churn reasons**? A different story.
@@ -201,7 +203,7 @@ Churn has **already cost us $13.6M in future value** — a **20.3%** **revenue l
 
 ##### 3.1.1 Are we losing high-value Customers?
 
-<img width="633" height="439" alt="image" src="https://github.com/user-attachments/assets/4b609646-13dd-457a-b3d7-0b070938c92d" />
+<img width="625" height="376" alt="image" src="https://github.com/user-attachments/assets/72469de6-b173-402a-a3f2-47166ed3076e" />
 
 Across nearly all CLTV categories, churn rates are consistently **high**, including among customers valued at **over $5000**.
 We’ve **lost hundreds of high-value customers**, with the **$6000–6999** segment showing **333** churned users, **one of the highest overall.**
